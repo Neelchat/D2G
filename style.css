@@ -1,0 +1,21 @@
+body {
+    animation-name:a2 ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes a2 {
+    from{background-color: chartreuse;}
+    to{background-color:royalblue ;}
+}
+#show_sketch {
+    margin-left: auto;
+    animation-name: a3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes a3 {
+    from{color: red;}
+    to{color:seagreen}
+    from{background-color: springgreen;}
+    to{background-color: steelblue;}
+}
